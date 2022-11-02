@@ -76,4 +76,3 @@ class TestVarasto(unittest.TestCase):
     def test_tulostetaan_varaston_tiedot(self):
         self.assertEqual('saldo = 0, vielä tilaa 10', str(self.varasto))
     
-    pass
