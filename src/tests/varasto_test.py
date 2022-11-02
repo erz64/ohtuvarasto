@@ -71,7 +71,7 @@ class TestVarasto(unittest.TestCase):
     def test_asetetaan_varaston_alku_saldoksi_negatiivinen_luku(self):
         varasto3 = Varasto(10, -3)
 
-        self.assertEqual(varasto3.saldo, 0)
+        self.assertEqual(varasto3.saldo, 4)
 
     def test_tulostetaan_varaston_tiedot(self):
         self.assertEqual('saldo = 0, vielä tilaa 10', str(self.varasto))
